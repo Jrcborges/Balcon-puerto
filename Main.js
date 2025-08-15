@@ -17,7 +17,7 @@ const productos =[
         "imagen": "imagenes/Combo pierna.jpg",
         "categoria":{
             "titulo":"todos",
-            "categoria":"Dulces"
+            "categoria":"Combo"
         },
         "detalles":"Este combo tiene: Canoa de congris/Canoa de ensalada de estación/Canoa de Vianda Hervida/Pierna de Cerdo",
         "precio": "Precio según el peso"
