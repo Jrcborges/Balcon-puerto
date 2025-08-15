@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dulcería Panadería Fénix del
+Toro</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="stylesheet" href="detalles_items.css">
+</head>
+<body>
+<!-- Menú de Navegación -->
+    <div class="close-open">
+        <div class="logo">
+        <img class="logo_principal" src="imagenes/Logo.jpg">
+        <p><b>Abierto</b></p>
+        </div>
+        <div class="parrafo_principal">
+        <p>Fénix</p>
+        </div>
+    </div>
+    <nav id="menu" class="navbar">
+        <div class="items_menu">
+            <div class="menu-scroll">
+                <a href="Bebidas.html" id="Bebidas"class="menu-item">>Bebidas<</a>
+                <a href="index.html" id="Dulces"class="menu-item">Dulces</a>
+                <a href="Cakes.html" id="Cakes"class="menu-item">Cakes</a>
+                <a href="Panes.html" id="Panes"class="menu-item">Panes</a>
+                <!--<a href="otros.html" id="otros"class="menu-item">otros</a>-->
+            </div>
+        </div>
+    </nav>
+
+<!-- Contenido Principal -->
+<main>
+    
+    <h1>Bebidas</h1>
+    <p>Explora nuestras ofertas</p>
+    
+    <div id="contenedor" class="content_main">
+    <!--Aqui van los productos mediante el codigo-->
+    </div>
+    <div id="modal_detalle" class="modal">
+        <div id="modal_contenido" class="modal_contenido"></div>
+        <button id="cerrar_modal" class="cerrar_modal">cerrar</button>
+    </div>
+    
+</main>
+
+<div>
+    <a href="Carrito de compras/carrito.html" class="link_del_carrito"><img class="carrito_icon_img" src="imagenes/Carrito_img.jpg">
+        <p id="numerito" class="num_del_carrito">0</p>
+    </a>
+    <button onclick="boton_flotante()" class="boton-contact">
+        <img class="img-boton-contact" src="imagenes/Icono_watsapp.jpg" alt="">
+    </button>
+    <div id="contenedor_contact_id" class="contenedor_contact">
+        <p class="p_botonflotante">Hola sea usted Bienvenido a 
+            nuestra pagina <b>Fénix</b>.
+        </p>
+        <p class="p_botonflotante">
+            Contactenos al #+5363460710
+        </p>
+        <P class="p_botonflotante">
+            Nos encontramos en Corona entre santa rita/san carlos
+        </P>
+    </div>
+</div>
+
+<footer class="pie_pagina">
+    <p class="titulo-footer">'Fénix</p>
+    <P class="contact"><a href="https://wa.me/5363460710?text=Quiero contactarlos">Contactenos:+53 63460710</a></P>
+    <p class="contact">Corona entre san carlos/ santa rita</p>
+    <p>Calidad / Precio / Buena Atencion.</p>
+    <p>Visite pronto nuestro local.</p>
+</footer>
+    <script>
+        const categoria_actual = "Bebidas";
+    </script>
+<script src="Main.js"></script>
+</body>
+</html>
