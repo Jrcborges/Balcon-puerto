@@ -75,7 +75,7 @@ function vaciarCarrito(){
 }
 function act_total(){
     const total_calc=productoscarrito.reduce((acc,producto)=>acc+producto.precio,0)
-    total.innerText=`$${total_calc}`
+    total.innerText=`$Segun el peso`
 }
 
 
