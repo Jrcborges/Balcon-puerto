@@ -1,0 +1,199 @@
+/* Reset Básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    ::-webkit-scrollbar{display: none;}
+}
+a {
+    background-color: transparent;
+    border: 0;
+    margin-right: 20px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+button {
+    background-color: transparent;
+    border: 0;
+    
+}
+header{
+    text-align: center;
+}
+
+/************/
+.volver_compra{
+    display: flex;
+    padding: 10px;
+    text-align: center;
+    color: #ff632a;
+    font-size: 13px;
+    border-bottom: #333 solid 1px;
+    margin-left: 30px;
+}
+.menu_nav{
+    display: flex;
+}
+.menu_nav p{
+    display: flex;
+    color:#f9f9f9 ;
+    text-align: center;
+    background-color:#d48f75;
+    width: 100%;
+    padding: 10px;
+    
+}
+/*esto es el mein*/
+.carrito_vacio{
+    margin: 20px;
+    color: #932;
+}
+.carrito_productos{
+    display: flex;
+    flex-direction: column;
+}
+.carrito_producto_img{
+    width: 60px;
+}
+.boton_borrar{
+    width: 18px;
+}
+.carrito_producto{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    color: #d48f75;
+    padding: 1rem;
+    margin: 10px;
+    border: #333 solid 1px;
+    justify-content: space-between;
+}
+.vaciar_carrito button{
+    margin: 10px;
+    background-color: #ecd1d1;
+    display: flex;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: #f00;
+    text-transform: uppercase;
+}
+.total_compra button{
+    margin: 10px;
+    background-color: #ecd1d1;
+    display: flex;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: #f00;
+    text-transform: uppercase;
+}
+.total-cont{
+    margin: 10px;
+    display: flex;
+    padding: 5px;
+    text-align: center;
+    margin: 10px;
+}
+.Total{
+    color: rgb(234, 1, 1);
+    margin-left: 10px;
+}
+.total_de-compra button{
+    margin: 10px;
+    background-color: #d48f75;
+    margin: 10px;
+    width: 90px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(255, 241, 241);
+    text-transform: uppercase;
+    
+}
+.cont_de_acciones{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/*esta parte es para los productos q se agg al carro*/
+.contenedor_productosAgg{
+    font-size: 10px;
+    border-top: #d48f75 1px solid;
+}
+.talla_color{
+    display: flex;
+    
+}
+.talla{
+    padding-right: 40px;
+    
+    
+}
+
+
+
+/*Esta ceccion es para el checkout del cliente o los datos de informacion*/
+.cabecera-checkout{
+    background-color: #d48f75;
+    color: #f9f9f9;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    font-size: 24px;
+    
+}
+.btnBolber{
+    color: #ffe394;
+    font-size: 16px;
+}
+form{
+    margin: auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(176, 59, 38);
+    margin-bottom: 100px;
+}
+.titulo-checkout{
+    margin: 30px;
+    color: #333233;
+    border-bottom: #333 solid 1px;
+    display: flex;
+    width: 40%;
+}
+.checkoutform{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 30px;
+}
+.checkoutform label{
+    width: 100%;
+    color:#d48f75;
+    margin-top: 10px;
+}
+.checkoutform input{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-bottom: 2px solid #897f7f;
+}
+.datos-introdusca-checkout{
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.enviar_pedido{
+    margin-top: 20px;
+    position: static;
+    top:90%;
+    color: rgb(243, 236, 236);
+    background-color: #7a5f5f;
+    width: 100%;
+    height: 40px;
+}
