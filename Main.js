@@ -12,15 +12,15 @@ const productos =[
         "precio": "Segun El peso",
     },
   {
-        "id": "cocoglase",
-        "nombre": "Coco Glasé",
-        "imagen": "imagenes/Cocoglase.jpg",
+        "id": "combopierna",
+        "nombre": "Combo de pierna de Cerdo",
+        "imagen": "imagenes/Combo pierna.jpg",
         "categoria":{
             "titulo":"todos",
             "categoria":"Dulces"
         },
-        "detalles":"Coco glase helado riquisimo",
-        "precio": 550
+        "detalles":"Este combo tiene: Canoa de congris/Canoa de ensalada de estación/Canoa de Vianda Hervida/Pierna de Cerdo",
+        "precio": "Precio según el peso"
     },
     {
         "id": "panqueafricano",
