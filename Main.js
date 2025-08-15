@@ -2,7 +2,7 @@ const productos =[
     {
         "id": "combopuerco",
         "nombre": "Combo de Puerco Enteró",
-        "imagen": "imagenes/Capitolio.jpg",
+        "imagen": "imagenes/Combo cerdo.jpg",
         "categoria":{
             "titulo":"merengue",
             "categoria":"Combo"
