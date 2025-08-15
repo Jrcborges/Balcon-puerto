@@ -1,15 +1,15 @@
 const productos =[
     {
-        "id": "dulcecapitolio",
-        "nombre": "Capitolio",
+        "id": "combopuerco",
+        "nombre": "Combo de Puerco Enteró",
         "imagen": "imagenes/Capitolio.jpg",
         "categoria":{
             "titulo":"merengue",
-            "categoria":"Dulces"
+            "categoria":"Combo"
         },
-        "detalles":"Dulce con bastante merengue",
+        "detalles":"Este combo tiene: Canoa de congris/Canoa de ensalada de estación/Canoa de Vianda Hervida/Puerco Entero ",
         
-        "precio": 150,
+        "precio": "Segun El peso",
     },
   {
         "id": "cocoglase",
